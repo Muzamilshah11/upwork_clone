@@ -1,0 +1,212 @@
+/* Header styles */
+.header {
+    background-color:white;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items:left;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: 30px;
+    padding: auto;
+   
+}
+
+
+
+.link-headermenu{
+    display: flex;
+    width: 50px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size:20px;  
+
+}
+.link-headermenu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+/* hover style*/
+
+a:link {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default link color */
+}
+
+
+a:hover {
+    color: #47b438; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.link {
+    margin-right: 20px; /* Add margin between links for spacing */
+    font-size: 20px;
+}
+
+/* Apply other styles to .link as needed */
+
+
+
+/* Search input styles */
+.search {
+    display: flex;
+    align-items: right;
+    border-style:ridge;
+    border-radius: 50px;
+    margin-left: 500px;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+    
+}
+
+.search button {
+    padding: 5px 10px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sign-up and Login button styles */
+.buttons {
+    display: flex;
+    align-items: right;
+}
+
+.buttons button1 {
+    
+    padding: 5px 10px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+}
+.buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color:#14a800;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size:larger;
+    
+}
+.navigantion a:link{
+    justify-content: space-between;
+    padding: 5px;  
+    margin-left: 10px;
+    font-size: large;
+    text-decoration: none;
+    
+
+    
+}
+.navigantion a:hover{
+    color: #ff6600;
+}
+.title{
+    width: 4000px;  
+    font-size: 87px;
+    margin-left: 50px;
+    margin-top: 45px;
+    color: #14a800;
+    margin-bottom: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+.parh{
+    font-size:20px;
+    margin-left: 50px;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color: #7b6a6a;
+    
+    
+}
+    
+.getbutton{
+    width: 125px;
+    font-size: 16px;
+    background: #1c870e;
+    margin-left: 43px;
+    margin-top: 13px;
+    padding: 9px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+
+}
+.image{
+    width :400px;
+    height: 400px;
+    margin-top: -250px;
+    
+}
+
+.Trusted{
+margin-left: 50px;
+font-size: large;
+margin-top: 100px;
+color:#a6aba4; ;
+}
+.image2{
+    width :400px;
+    margin-left: 50px;
+ 
+}
+.pree{
+    font-size: 18px;
+    font-family: Segoe UI;
+    margin-left: 550px;
+    margin-top: -400px;
+    font-family:Times New Roman;
+}
+.button_both{
+     
+    display: flex;
+    margin-left: 605px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    color:#1c870e;
+    padding: 5px;
+    
+    
+    
+    
+}
+.trustlogo{
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    justify-content:space-between;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
